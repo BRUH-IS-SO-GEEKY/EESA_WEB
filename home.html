@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EESA</title>
+    <link rel="stylesheet" href="stylesheet.css" />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.12.2/lottie.min.js"></script>
+  </head>
+  <body>
+    <nav class="navbar">
+      <img src="images/logo.png" alt="eesalogo" width="100px" height="50px" />
+      <a href="home.html"><h2>HOME</h2></a>
+      <div class="animation" id="animation"></div>
+      <script>
+        let animation = bodymovin.loadAnimation({
+          container: document.getElementById("animation"),
+          path: "thunder.json",
+          render: "svg",
+          loop: true,
+          autoplay: true,
+          name: "navbar animation",
+        });
+      </script>
+      <a href="blog&docs.html">
+        <h2>BLOG & DOCS</h2>
+      </a>
+
+      <div class="login-section">
+        <h2>LOGIN</h2>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24"
+          fill="currentColor"
+          class="w-6 h-6"
+          height="50px"
+          width="50px"
+        >
+          <path
+            fill-rule="evenodd"
+            d="M18.685 19.097A9.723 9.723 0 0 0 21.75 12c0-5.385-4.365-9.75-9.75-9.75S2.25 6.615 2.25 12a9.723 9.723 0 0 0 3.065 7.097A9.716 9.716 0 0 0 12 21.75a9.716 9.716 0 0 0 6.685-2.653Zm-12.54-1.285A7.486 7.486 0 0 1 12 15a7.486 7.486 0 0 1 5.855 2.812A8.224 8.224 0 0 1 12 20.25a8.224 8.224 0 0 1-5.855-2.438ZM15.75 9a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0Z"
+            clip-rule="evenodd"
+          />
+        </svg>
+      </div>
+    </nav>
+
+    <div class="slide-container">
+      <div class="slider">
+        <button class="leftnav">
+          <svg
+            width="90px"
+            height="90px"
+            viewBox="-6 -6 36.00 36.00"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            transform="rotate(-45)matrix(-1, 0, 0, 1, 0, 0)"
+            stroke="#000000"
+            class="btn-icon"
+          >
+            <g
+              id="SVGRepo_bgCarrier"
+              stroke-width="0"
+              transform="translate(0,0), scale(1)"
+            />
+
+            <g
+              id="SVGRepo_tracerCarrier"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+
+            <g id="SVGRepo_iconCarrier">
+              <path
+                d="M7.00012 13.5L12 4V10.5H16.9999L12 20L12.0002 13.5H7.00012Z"
+                stroke="#00bbe0"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </g>
+          </svg>
+        </button>
+
+        <img src="images/1.jpg" alt="" class="slide" />
+        <img src="images/2.png" alt="" class="slide" />
+        <img src="images/3.jpeg" alt="" class="slide" />
+        <img src="images/traditional_day.jpeg" alt="" class="slide" />
+
+        <button class="rightnav">
+          <svg
+            width="90px"
+            height="90px"
+            viewBox="-6 -6 36.00 36.00"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            transform="rotate(45)matrix(-1, 0, 0, -1, 0, 0)"
+            stroke="#000000"
+            class="btn-icon"
+          >
+            <g
+              id="SVGRepo_bgCarrier"
+              stroke-width="0"
+              transform="translate(0,0), scale(1)"
+            />
+
+            <g
+              id="SVGRepo_tracerCarrier"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+
+            <g id="SVGRepo_iconCarrier">
+              <path
+                d="M7.00012 13.5L12 4V10.5H16.9999L12 20L12.0002 13.5H7.00012Z"
+                stroke="#00bbe0"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </g>
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    <div class="navdots">
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+    </div>
+
+    <section class="section-council">
+      <div class="section-intro">
+        <h2 id="animate_head">Meet our Council</h2>
+        <span>Electrifying Excellence in Culture and Innovation</span>
+      </div>
+      <div class="section-members">
+        <div>
+          <img src="images/harish.jpeg" alt="" class="section-people-img" />
+          <h1>Prof. Harish Pillai</h1>
+          <p>
+            Head of Department
+            <a
+              href="#
+            "
+              target="_blank"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-6 h-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75"
+                />
+              </svg>
+            </a>
+          </p>
+        </div>
+        <div>
+          <img src="images/sandip.png" alt="" class="section-people-img" />
+          <h1>Prof. Sandip Mondal</h1>
+          <p>
+            Head of EESA
+            <a href="#" target="_blank"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-6 h-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75"
+                />
+              </svg>
+            </a>
+          </p>
+        </div>
+        <div>
+          <img src="images/kartik.jpg" alt="" class="section-people-img" />
+          <h1>Kartik Singhal</h1>
+          <p>
+            Department General Secretary
+            <a href="#" target="_blank"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-6 h-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75"
+                />
+              </svg>
+            </a>
+          </p>
+        </div>
+        <div>
+          <img src="images/rishabh.jpeg" alt="" class="section-people-img" />
+          <h1>Rishabh Rao</h1>
+          <p>
+            EESA General Secretary
+            <a href="#" target="_blank"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-6 h-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75"
+                />
+              </svg>
+            </a>
+          </p>
+        </div>
+      </div>
+      <div class="section-footer">
+        <p>
+          Send your queries and thoughts in improving our EESA!! We are happy to
+          hear.
+        </p>
+      </div>
+    </section>
+
+    <section class="socials">
+      <h3 class="animate_head" id="animate_head">EESA SOCIALS</h3>
+      <a href=""><img src="images/instagram (1).svg" alt="insta" /></a>
+      <a href=""><img src="images/facebook.svg" alt="fb" /></a>
+      <a href=""><img src="images/linkedin (1).svg" alt="fb" /></a>
+      <a href=""><img src="images/youtube (1).svg" alt="yt" /></a>
+    </section>
+
+    <script src="eesa.js"></script>
+  </body>
+</html>
