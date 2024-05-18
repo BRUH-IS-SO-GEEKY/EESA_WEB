@@ -1,0 +1,292 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  background: url(images/bg1.jpeg);
+  /* background-size: contain; */
+  /* height: 100rem; */
+  overflow-x: hidden;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 4.5rem;
+  padding: 1rem;
+  background: linear-gradient(to right, #0acffe 0%, #495aff 100%);
+  opacity: 0.95;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  z-index: 2;
+  gap: 30px;
+}
+
+.login-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  right: 10px;
+  gap: 30px;
+}
+
+.navbar a {
+  text-decoration: none;
+}
+
+.navbar h2 {
+  width: 12rem;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+  color: black;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.navbar h2:hover {
+  cursor: pointer;
+  letter-spacing: 2px;
+  color: rgb(15, 10, 160);
+  font-size: 20.5px;
+}
+
+.login-section h2 {
+  width: auto;
+}
+
+.navbar img {
+  position: absolute;
+  left: 60px;
+}
+
+.animation {
+  height: 100px;
+  width: 400px;
+}
+
+.slide-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url(images/trail3.jpeg);
+  background-size: cover;
+  height: 720px;
+}
+
+.slider {
+  top: 20px;
+  width: 65%;
+  height: 550px;
+  border: 2px rgb(43, 188, 232) solid;
+  border-radius: 0px;
+  position: relative;
+  overflow: hidden;
+}
+
+.slide {
+  height: 100%;
+  width: 100%;
+  left: 100%;
+  transition: all 1s;
+  position: absolute;
+}
+
+.leftnav,
+.rightnav {
+  transition: all 0.3s ease;
+  border: 2px solid rgb(43, 188, 232);
+
+  height: 50px;
+  width: 50px;
+
+  background-color: black;
+  z-index: 1;
+  position: absolute;
+}
+
+.leftnav {
+  top: 15rem;
+  left: -0.5rem;
+}
+
+.rightnav {
+  top: 15rem;
+  right: -0.5rem;
+}
+
+.leftnav:hover {
+  cursor: pointer;
+  background: rgb(0, 58, 112);
+}
+
+.rightnav:hover {
+  cursor: pointer;
+  background: rgb(0, 58, 112);
+}
+
+.btn-icon {
+  height: 50px;
+  width: 50px;
+  stroke: black;
+}
+
+.navdots {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 3rem;
+  background-color: black;
+}
+
+.dot {
+  height: 10px;
+  width: 10px;
+  background-color: white;
+  border-radius: 50%;
+  margin-left: 15px;
+  text-align: center;
+}
+
+.dot.active {
+  background-color: #0acffe;
+}
+
+.section-council {
+  background: radial-gradient(
+    circle at 12.3% 19.3%,
+    rgb(85, 88, 218) 0%,
+    rgb(95, 209, 249) 100.2%
+  );
+  height: 70rem;
+  padding: 32px;
+  margin-left: 40px;
+  margin-right: 40px;
+  border-radius: 20px;
+  box-shadow: -6px -6px 10px rgb(17, 117, 167);
+}
+
+.section-intro {
+  height: 120px;
+  text-align: center;
+}
+.section-intro h2 {
+  font-size: 40px;
+  color: rgb(11, 58, 78);
+  font-weight: 700;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  letter-spacing: 1px;
+  transition: all 0.5s ease;
+}
+
+.section-intro span {
+  font-size: 22px;
+  font-family: sans-serif;
+  color: rgb(1, 63, 86);
+}
+
+.section-people-img {
+  border: 2px solid rgb(13, 73, 129);
+
+  border-radius: 50%;
+  height: 300px;
+  width: 300px;
+  margin-top: 25px;
+}
+
+.section-members {
+  height: 80%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  place-items: center;
+  text-align: center;
+}
+
+.section-members h1 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.section-members p {
+  color: rgb(232, 232, 53);
+  font-size: 18px;
+  font-weight: bold;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.section-members a svg {
+  height: 25px;
+  width: 25px;
+  stroke: rgb(11, 58, 78);
+  margin-top: 2px;
+}
+
+.section-members a svg:hover {
+  stroke: black;
+}
+
+.section-members a:visited,
+a:active {
+  cursor: pointer;
+}
+
+.section-members div {
+  width: 75%;
+  height: 100%;
+  border: 1px rgb(7, 55, 133) solid;
+  box-shadow: -5px -5px 10px;
+}
+
+.section-footer {
+  text-align: center;
+  margin-top: 60px;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: "Courier New", Courier, monospace;
+  color: rgb(54, 2, 196);
+}
+
+.socials {
+  height: 7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 1rem;
+
+  box-shadow: 0px -5px 40px rgb(29, 46, 232);
+}
+
+.socials a {
+  width: 50px;
+  height: 50px;
+}
+
+.socials img {
+  height: 40px;
+  width: 40px;
+  transition: all 0.3s ease;
+}
+
+.socials img:hover {
+  cursor: pointer;
+  height: 44px;
+  width: 44px;
+}
+
+.socials h3 {
+  /* width: auto;  not defining it for some animation purposes*/
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+
+  font-size: 24px;
+  letter-spacing: 1px;
+  color: rgb(204, 140, 150);
+  transition: all 0.5s ease;
+}
